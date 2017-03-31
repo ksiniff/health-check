@@ -1,121 +1,67 @@
-body {
-	background-color: Lightgrey;
-}
-.container {
-	margin-left: 10%;
-	margin-right: 10%;
-	background-color: white;
-	padding: 10%;
-}
+/* Helper
+=======================================================*/
 h2 {
-	font-family: avenir;
-	color: rgb(54, 91, 136)
+	font-family: "avenir";
+	color: rgb(54, 91, 136);
 }
+
 h4 {
-	font-family: cambria;
+	font-family: "cambria";
 	font-weight: normal;
 }
+
 p {
-	font-family: cambria;
+	font-family: "cambria";
 	color: rgb(0,0,0);
 }
+
+a {
+	color: blue;
+}
+
 .image {
+	padding: 10px;
 	text-align: center;
 }
 
-
-
-
-
-.title-page {
-	height: 100%;
-	width: 100%
+/* Main
+=======================================================*/
+.container {
+	margin: 20px 150px;
+	background-color: white;
+	padding: 10px;
 }
+
 .sophity-logo {
+	text-align: center;
+}
+
+.sophity-logo img{
+	height: 75px;
+}
+
+.puzzle-image img{
 	width: 100%;
-	height: 25%;
-	background-color: Lightgrey;
-	float: left;
 }
-.sophity-logo img {
-	
-
-
-
-
-	
-}
-.puzzle-image {
-	height: 100%
-	float: left;
-		
-}
-.puzzle-image img {
-	max-height: 25%;
-	
-}
-.section-three h2 {
-
-}
-
-
-
 
 .table-of-contents {
-	height: 100%;
-	width: 100%;
+	padding: 30px 0;
 }
 
-
-
-
-
-
-.sophity-services-success-model {	
+.table-of-contents a{
+	text-decoration: none;
 }
 
-
-
-
-
-
-.sophity-services-success-health-check {
-	height: 100%;
-	width: 100%;
+#sophity-services-success-health-check {
+	padding: 30px 0;
 }
 
-
-
-
-
-.results table {
-	width: 100%;
+#about-sophity {
+	padding: 30px 0;
 }
 
-.table-header {
-	font-size: 20px;
-}
-.row-label {
-	font-weight: normal;
-	text-align: left;
-	padding-left: 10px;
-}
-
-
-
-
-.about-sophity {
-	height: 100%;
-	width: 100%;
-}
-
-
-
-
-
-
-
-
+/* Tables
+=======================================================*/
 
 table {
 	margin: 0 auto;
@@ -126,7 +72,46 @@ td, th {
 	border: 1px black solid;
 }
 
+.results table {
+	padding: 30px 0;
+}
 
+.table-header {
+	font-size: 20px;
+}
 
+.row-label {
+	font-weight: normal;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.score {
+	font-weight: normal;
+}
+
+#grade-scale th {
+	padding: 10px;
+
+}
+/* Footer
+=======================================================*/
+#contact{
+	text-align: center;
+}
+
+.contact-links a{
+	padding-right: 25px;
+}
+
+.icons a{
+	font-size: 18px;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+#contact .icons{
+	padding-top: 20px;
+}
 
 
